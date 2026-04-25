@@ -44,3 +44,23 @@ const Progresstracker = () => {
                   Completion Score
                 </span>
               </div>
+              <div className="progress-bar-wrapper">
+                <div className="progress-bar-base">
+                  <div
+                    className="progress-bar-fill-proper"
+                    style={{ width: `${overallProgress}%` }}
+                  ></div>
+                </div>
+                <div className="progress-bar-markers">
+                  <span>Start</span>
+                  <span>Goal</span>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          {/* Milestones Table */}
+          <section className="card roadmap-card">
+            <div className="card-header">
+              <h2>Detailed Milestones</h2>
+            </div>
