@@ -156,7 +156,6 @@ export default function CompanyQuestions({ form, onLogout }) {
       </div>
 
       <div className="cq-body">
-
         {/* Step 1 — Companies */}
         {!selectedCompany && (
           <>
@@ -173,7 +172,6 @@ export default function CompanyQuestions({ form, onLogout }) {
             </div>
           </>
         )}
-
         {/* Step 2 — Subjects */}
         {selectedCompany && !selectedSubject && (
           <>
@@ -192,7 +190,6 @@ export default function CompanyQuestions({ form, onLogout }) {
             </div>
           </>
         )}
-
         {/* Step 3 — Questions with Answers */}
         {selectedCompany && selectedSubject && (
           <>
@@ -220,7 +217,6 @@ export default function CompanyQuestions({ form, onLogout }) {
             </div>
           </>
         )}
-
       </div>
       <Footer />
     </div>
